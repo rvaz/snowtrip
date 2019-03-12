@@ -1,0 +1,8 @@
+h1 {
+  @include base_font(700, 2);
+}
+
+h2 {
+  @include base_font(300, 3);
+  color: $light;
+}

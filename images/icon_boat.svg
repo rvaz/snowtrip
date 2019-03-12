@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_boat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="snowtrip-info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-669.000000, -272.000000)">
+        <g id="header" transform="translate(298.000000, 220.000000)" stroke="#343B46">
+            <g id="icon_boat" transform="translate(372.000000, 52.000000)">
+                <path d="M9,6.5 L9,13.5498753" id="Line-141" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3.5,8 L14.5,8 L14.5,5.00118474 C14.5,4.17248342 13.8250365,3.5 12.9914698,3.5 L5.0085302,3.5 C4.17664728,3.5 3.5,4.17354709 3.5,5.00118474 L3.5,8 Z" id="Line-138"></path>
+                <path d="M6.5,3.5 L11.5,3.5 L11.5,1.0093689 C11.5,0.721037446 11.2817558,0.5 11.009222,0.5 L6.99077797,0.5 C6.72608246,0.5 6.5,0.72914428 6.5,1.0093689 L6.5,3.5 Z" id="Line-137"></path>
+                <path d="M0,16 C0,16 0,17.5 1.5,17.5 C3,17.5 3,16 3,16" id="Line-136" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3,16 C3,16 3,17.5 4.5,17.5 C6,17.5 6,16 6,16" id="Line-135" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6,16 C6,16 6,17.5 7.5,17.5 C9,17.5 9,16 9,16" id="Line-134" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9,16 C9,16 9,17.5 10.5,17.5 C12,17.5 12,16 12,16" id="Line-133" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6,16 C6,16 6,17.5 7.5,17.5 C9,17.5 9,16 9,16" id="Line-132" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M12,16 C12,16 12,17.5 13.5,17.5 C15,17.5 15,16 15,16" id="Line-131" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M15,16 C15,16 15,17.5 16.5,17.5 C18,17.5 18,16 18,16" id="Line-130" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Line-129" stroke-linecap="round" stroke-linejoin="round" points="2.5 14.5 0.5 9 9 6.5 17.5 9 15.5 14.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

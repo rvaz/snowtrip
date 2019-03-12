@@ -1,0 +1,9 @@
+ul {
+  flex-direction: column-reverse;
+  @include tablet { flex-direction: row; }
+
+  li {
+    margin-bottom: $spacing_s;
+    @include tablet { margin: 0 $spacing_m; }
+  }
+}

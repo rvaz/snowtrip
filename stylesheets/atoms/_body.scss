@@ -1,0 +1,23 @@
+/*
+--------------------------------------------------------------------------------
+HTML elements look n feel
+--------------------------------------------------------------------------------
+*/
+body {
+  @include base_font();
+  background-color: $bg_body;
+  color: $dark;
+  font-style: normal;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+p {
+  @include base_font();
+  margin: auto;
+  max-width: 60rem;
+}
+
+b {
+  font-weight: 700;
+}

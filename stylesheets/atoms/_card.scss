@@ -1,0 +1,139 @@
+.card {
+  background-color: $bg_card;
+  border-radius: $radius;
+  box-shadow: 0 .5rem 2rem rgba($dark, .1);
+  height: 26rem;
+  margin: $spacing_s 0;
+  padding: $spacing_m 0;
+  position: relative;
+  width: 100%;
+
+  @include tablet {
+    margin: $spacing_s;
+    width: 22rem;
+  }
+
+  .check, .meh {
+    border-radius: 0 $radius 0 0;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3rem;
+
+    &:before {
+      content: attr(data-info);
+      color: $light;
+      display: block;
+      font-size: 1.2rem;
+      font-weight: 700;
+      position: relative;
+      text-align: right;
+      right: 6rem;
+      top: .5rem;
+      width: 5rem;
+      white-space: nowrap;
+    }
+  }
+
+  .check {
+    background-color: $eucalyptus;
+
+    &:after {
+      content: '';
+      background: url(../images/icon_yes.svg) no-repeat center;
+      background-size: contain;
+      display: block;
+      height: 1rem;
+      left: .6rem;
+      position: absolute;
+      top: 1rem;
+      width: 1.6rem;
+    }
+  }
+
+  .meh {
+    background-color: $light;
+
+    &:after {
+      content: '';
+      background: url(../images/icon_meh.svg) no-repeat center;
+      background-size: contain;
+      display: block;
+      height: .3rem;
+      left: .8rem;
+      position: absolute;
+      top: 1.4rem;
+      width: 1.4rem;
+    }
+  }
+}
+
+.stuff-wrapper {
+  .card {
+    p {
+      bottom: 3rem;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      position: absolute;
+      width: 100%;
+
+      &:last-child {
+        bottom: 1.5rem;
+        color: $light;
+        font-size: 1.2rem;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+.expenses-wrapper {
+  .card {
+    height: 30rem;
+    padding: 3rem 0;
+
+    @include tablet {
+      width: 28rem;
+    }
+
+    &.redlight {
+      background-color: $white;
+      height: 36rem;
+      order: 1;
+
+      @include tablet {
+        order: 2;
+      }
+    }
+
+    &.reds {
+      order: 2;
+
+      @include tablet {
+        margin-top: 5rem;
+      }
+    }
+
+    &.plus {
+      order: 3;
+
+      @include tablet {
+        margin-top: 5rem;
+      }
+    }
+
+    small {
+      display: block;
+      font-size: 1.2rem;
+    }
+
+    p:last-child {
+      bottom: 1.5rem;
+      color: $light;
+      font-size: 1.2rem;
+      position: absolute;
+      width: 100%;
+    }
+  }
+}
